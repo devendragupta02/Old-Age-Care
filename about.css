@@ -1,0 +1,304 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Slider Container */
+.slider-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.person-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #c5ccd1;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.position {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Navigation Buttons */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .slide {
+        padding: 20px;
+    }
+
+    .person-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .position {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #d5dbdf;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.team-photo {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+/* Mission Section */
+.mission, .story, .values, .testimonials, .cta {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Testimonials */
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #3498db;
+}
+
+.testimonial span {
+    font-style: italic;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+.cta button {
+    background-color: #e67e22;
+    color: rgb(134, 63, 63);
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.cta button:hover {
+    background-color: #d35400;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+}
+
+footer .social-links a:hover {
+    color: #f39c12;
+}
+
+
+
+
+
+
+
+.cta {
+    background-color: #064e7e;
+    color: white;
+    text-align: center;
+}
